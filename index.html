@@ -9,6 +9,71 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div>
+        <h1 id="titulo">Cadastro de Devs</h1>
+    </div>
+    <form action="">
+        <fieldset class="grupo">
+        
+            <div class="info1">
+                <label class="format"for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="info1">
+                <label class="format"for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+            <div class="info1">
+                <label class="format"for="email">Email</label>
+                <input type="Email" name="email" id="email">
+            </div>
+        
+            <div class="info2">
+                <label class="format">De qual lado da aplicação você desenvolve?</label>
+                <br>
+                <label for="frontend"><span>Front-end</span></label>
+                <input id="frontend"type="radio" name="devweb" value="frontend">
+                <label for="backend"><span>Back-end</span></label>
+                <input  id="backend"type="radio" name="devweb" value="backend">
+                <label for="fullstack"><span>Full-stack</span></label>
+                <input  id="fullstack"type="radio" name="devweb" value="fullstack">
+            </div>
+                <div class="senioridade">
+                    <label class="format" for="senioridade">Senioridade</label>
+                    <select name="" id="senioridade">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="junior">Junior</option>
+                        <option value="pleno">Pleno</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+                    <fieldset class="grupo">
+                        <div class="check">
+                            <label class="format">Selecione as tecnologias que utiliza:</label>
+                            <br>
+                            <label for="tecnologia1"><span>HTML</span></label>
+                            <input type="checkbox" name="tecnologia1" id="tecnologia1" value="html">
+                            <label for="tecnologia2"><span>CSS</span></label>
+                            <input type="checkbox" name="tecnologia2" id="tecnologia2" value="css">
+                            <label for="tecnologia3"><span>JavaScript</span></label>
+                            <input type="checkbox" name="tecnologia3" id="tecnologia3" value="javascript">
+                            <label for="tecnologia4"><span>PHP</span></label>
+                            <input type="checkbox" name="tecnologia4" id="tecnologia4" value="php">
+                            <label for="tecnologia5"><span>C#</span></label>
+                            <input type="checkbox" name="tecnologia5" id="tecnologia5" value="c#">
+                            <label for="tecnologia6"><span>Python</span></label>
+                            <input type="checkbox" name="tecnologia6" id="tecnologia6" value="python">
+                            <label for="tecnologia7"><span>Java</span></label>
+                            <input type="checkbox" name="tecnologia7" id="tecnologia7" value="java">
+                        </div>
+                    <div class="exp">
+                        <label class="format">Conte um pouco da sua experiência:</label>
+                        <br>
+                        <textarea name="experiencia" id="experiencia" cols="30" rows="10">
+                        </textarea>
+                        <button type="submit">Concluído</button>
+                    </div>
+
+    </form>
 </body>
 </html>
