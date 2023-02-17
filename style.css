@@ -16,7 +16,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     background-color: #e5fff9;
 }
 #titulo{
@@ -94,12 +93,6 @@ textarea{
     font-size: 2rem;
     resize: none;
 }
-
-@media (max-width: 750px) {
-    body {
-      overflow-y: auto;
-    }
-  }
   @media (max-width: 400px) {
         .info1 input, .info1 label, .info2{
             display: flex;
